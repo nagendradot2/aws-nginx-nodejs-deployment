@@ -1,4 +1,3 @@
-```javascript
 fetch('/api/bikes')
   .then(res => res.json())
   .then(data => {
@@ -23,4 +22,4 @@ fetch('/api/bikes')
 function buyBike(name) {
   alert("Booking request for " + name);
 }
-```
+
